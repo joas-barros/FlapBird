@@ -212,7 +212,7 @@ def main():
             for i, passaro in enumerate(passaros):
                 if cano.colidir(passaro):
                     passaros.pop(i)
-                    acabou()
+                    # acabou()
                 if not cano.passou and passaro.x > cano.x:
                     cano.passou = True
                     adicionar_cano = True
@@ -231,7 +231,7 @@ def main():
         for i, passaro in enumerate(passaros):
             if (passaro.y + passaro.imagem.get_height()) > chao.y or passaro.y < 0:
                 passaros.pop(i)
-                acabou()
+                # acabou()
 
         # Zera o jogo
         if pontos == 200:
