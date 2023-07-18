@@ -234,8 +234,8 @@ def main():
                 # acabou()
 
         # Zera o jogo
-        if pontos == 200:
-            acabou()
+        # if pontos == 200:
+        #    acabou()
 
         desenhar_tela(tela, passaros, canos, chao, pontos)
 
